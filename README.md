@@ -14,3 +14,9 @@ If the user enters a number outside that range, it repeatedly asks until a valid
 Q4: This Java program asks the user for a number between 50 and 100.
 If the input is invalid, it keeps asking until a valid number is entered.
 Once valid, it prints numbers from 0 to that number, in steps of 5.
+
+Q5: This program works as a regular calculator and can calculate double/float numbers it features:
+- addition
+- subtraction
+- multiplication
+- division

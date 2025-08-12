@@ -23,18 +23,30 @@ public class Q5Lab8
           case '+' :
               result= number1 + number2;
               System.out.println(number1 + "+" +number2+ "=" +result);
+              break;
               
               case '-' :
-              result= number1 + number2;
+              result= number1 - number2;
               System.out.println(number1 + "-" +number2+ "=" +result);
+              break;
               
               case '*' :
-              result= number1 + number2;
+              result= number1 * number2;
               System.out.println(number1 + "*" +number2+ "=" +result);
+              break;
               
               case '/' :
-              result= number1 + number2;
+              if (number2 == 0){
+                  System.out.println("Error: Division by zero is not allowed");
+              } else { result= number1 / number2;
               System.out.println(number1 + "/" +number2+ "=" +result);
-      }defult 
+            }
+              
+              break;
+              
+              default: System.out.print("Invaild oprator selected");
+              break;
+              
+    }   
   }
 }
